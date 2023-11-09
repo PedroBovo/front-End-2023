@@ -4,12 +4,23 @@
   border-radius: 8rem;
   padding: 2rem;
   text-align: center;
-  box-shadow: 0.25rem 0.25rem black;
   background: #f8f8f8;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out ;
 }
+.card:hover{
+  box-shadow: 0.25rem 0.25rem black;
+  translate: -0.25rem -0.25rem;
+}
+
 .card > h2 {
   font-family: inter, Verdana, Geneva, Tahoma, sans-serif;
 }
 .card > img{
   border-radius: 1rem;
+  transition: all 0.1s ease-in-out;
+}
+.card > img:hover{
+  box-shadow: 0.25rem 0.25rem #fea6ca;
+  translate: -0.25rem -0.25rem;
 }
