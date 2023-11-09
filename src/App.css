@@ -24,3 +24,8 @@
   box-shadow: 0.25rem 0.25rem #fea6ca;
   translate: -0.25rem -0.25rem;
 }
+
+.card > h2 {
+  text-shadow:  -2px 1px ;
+}
+
